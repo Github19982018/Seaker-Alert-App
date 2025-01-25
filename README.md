@@ -4,7 +4,7 @@
 WMI exporter is used for collecting metrics from Windows.
 WMI exporter Integrates with Prometheus to query data.  
 
-To Install WMI exporter visit official site and download .msi file which can be easily Installed by following the prompts.
+To Install WMI exporter visit [github site](https://github.com/prometheus-community/windows_exporter/releases) and download .msi file which can be easily Installed by following the prompts.
 ## Clone the github repository
 Clone the github repository. Open terminal and move to the cloned folder.
 ## Build docker image of Prometheus
