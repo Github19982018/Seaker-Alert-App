@@ -25,7 +25,7 @@ In terminal move to repository folder and type
 To ensure prometheus and Grafana are running properly visit localhost:9090 for prometheus and localhost:3000 for grafana.
 To login to grafana type username as admin and password as admin in the login page.
 ## Integrate Grafana with Prometheus
-- To Integrate Prometheus with Grafana open Connections and cllick on Data sources. 
+- To Integrate Prometheus with Grafana open Connections in grafana site and cllick on Data sources. 
 - In the Data sources tab click on the button Add new datasource. Fill the form.
 ## Setup dashboard
 Open Dashboards section. 
