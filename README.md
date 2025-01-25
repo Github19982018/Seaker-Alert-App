@@ -17,7 +17,7 @@ For setting up Alerts Manager first we need to setup a host email.
 
 - Open grafana.ini file present in the grafana folder of the repository.
 - Edit smtp section(first section) remove ';'. Add host mail and details.
-- To build Grafana image, in terminal type
+- To build Grafana image, in terminal move to grafana folder and type
 ``` docker build -t seeker-grafana ```
 ## Run Prometheus and Grafana
 In terminal move to repository folder and type
