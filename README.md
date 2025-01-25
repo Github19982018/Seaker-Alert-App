@@ -37,6 +37,14 @@ First select Contact points tab present under the Alerting section of Grafana we
 - To Add Alerts select Alert rules tab present under the Alerting section.
 - Click on New Alert Button.
 - Add queries and alert conditions.
+## Setup Mqtt IOT protocol support
+- Pull emqx mqtt broker image
+
+      docker pull emqx/emqx 
+- Start container
+  
+      docker run -d --name emqx -p 1883:1883 -p 8083:8083 -p 8084:8084 -p 8883:8883 -p 18083:18083  emqx/emqx
+- docker compose file is already configured to work with emqx so you don't need to do anything on prometheus or grafana
 # Block Diagram 
 <figure>
 <img src="/seeker-app.png">
