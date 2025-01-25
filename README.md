@@ -37,3 +37,7 @@ First select Contact points tab present under the Alerting section of Grafana we
 - To Add Alerts select Alert rules tab present under the Alerting section.
 - Click on New Alert Button.
 - Add queries and alert conditions.
+# Block Diagram 
+<figure>
+<img src="/seeker-app.png">
+</figure>
