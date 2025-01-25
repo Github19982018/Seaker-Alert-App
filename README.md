@@ -5,14 +5,14 @@ WMI exporter is used for collecting metrics from Windows.
 WMI exporter Integrates with Prometheus to query data.  
 
 To Install WMI exporter visit official site and download .msi file which can be easily Installed by following the prompts.
-## Clone github repository
+## Clone the github repository
 Clone the github repository. Open terminal and move to the cloned folder.
-## Build docker image for Prometheus
+## Build docker image of Prometheus
 To build Prometheus image, in terminal type
 ``` cd prometheus ```
 
 ``` docker build -t seeker-prometheus ```
-## Build docker image for Grafana
+## Build docker image of Grafana
 For setting up Alerts Manager first we need to setup a host email. 
 
 - Open grafana.ini file present in the grafana folder of the repository.
