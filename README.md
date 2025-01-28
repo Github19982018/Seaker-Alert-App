@@ -44,7 +44,7 @@ First select Contact points tab present under the Alerting section of Grafana we
 - Start container
   
       docker run -d --name emqx -p 1883:1883 -p 8083:8083 -p 8084:8084 -p 8883:8883 -p 18083:18083  emqx/emqx
-- docker compose file is already configured to work with emqx so you don't need to do anything on prometheus or grafana
+- prometheus is already configured to work with emqx so you don't need to do anything on prometheus or grafana
 # Block Diagram 
 <figure>
 <img src="/seeker-app.png">
