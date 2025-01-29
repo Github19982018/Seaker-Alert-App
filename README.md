@@ -11,14 +11,14 @@ Clone the github repository. Open terminal and move to the cloned folder.
 To build Prometheus image, in terminal type
 ``` cd prometheus ```
 
-``` docker build -t seeker-prometheus ```
+``` docker build -t seeker-prometheus .```
 ## Build docker image of Grafana
 For setting up Alerts Manager first we need to setup a host email. 
 
 - Open grafana.ini file present in the grafana folder of the repository.
 - Edit smtp section(first section) remove ';'. Add host mail and details.
 - To build Grafana image, in terminal move to grafana folder and type
-``` docker build -t seeker-grafana ```
+``` docker build -t seeker-grafana .```
 ## Run Prometheus and Grafana
 In terminal move to repository folder and type
 ``` docker compose up -d ```.
